@@ -1,119 +1,509 @@
+
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ULTOR Esports – offizieller Merchandise-Shop.">
-  <meta name="theme-color" content="#090810">
-  <title>ULTOR ESPORTS — Official Store</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ULTOR Esports – Eine Organisation. Eine Identität. Ein gemeinsames Ziel.">
+
+    <title>ULTOR ESPORTS | Official Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="announcement">ULTOR ESPORTS — OFFICIAL MERCHANDISE</div>
-  <header class="site-header">
-    <a class="brand" href="#start" aria-label="ULTOR Esports Startseite">
-      <span class="brand-mark">U</span>
-      <span class="brand-name">ULTOR <small>ESPORTS</small></span>
-    </a>
-    <nav class="main-nav" aria-label="Hauptnavigation">
-      <a href="#start">Start</a>
-      <a href="#shop">Shop</a>
-      <a href="#about">Über ULTOR</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <button class="cart-trigger" id="open-cart" aria-label="Warenkorb öffnen">
-      <span>Warenkorb</span><span class="cart-count" id="cart-count">0</span>
-    </button>
-    <button class="mobile-menu" id="mobile-menu" aria-label="Menü öffnen">☰</button>
-  </header>
 
-  <main>
-    <section class="hero" id="start">
-      <div class="hero-grid"></div>
-      <div class="hero-content">
-        <p class="eyebrow"><span></span> THE OFFICIAL ULTOR STORE</p>
-        <h1>WEAR THE<br><em>LEGACY.</em></h1>
-        <p class="hero-copy">Mehr als ein Team. Eine Identität.<br>Zeig, für wen du spielst.</p>
-        <a class="button button-primary" href="#shop">KOLLEKTION ENTDECKEN <span>↗</span></a>
-      </div>
-      <div class="hero-art" aria-label="Grafische Trikot-Platzhalterillustration">
-        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
-        <div class="jersey jersey-hero">
-          <div class="jersey-neck"></div><div class="jersey-chest-logo">U</div>
-          <div class="jersey-line line-a"></div><div class="jersey-line line-b"></div>
-          <div class="jersey-number">00</div>
-          <div class="jersey-label">ULTOR ESPORTS</div>
+    <!-- =====================================
+         HEADER / NAVIGATION
+    ====================================== -->
+
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            <span class="logo-symbol">U</span>
+
+            <span class="logo-text">
+                ULTOR
+                <small>ESPORTS</small>
+            </span>
+        </a>
+
+        <nav class="navigation">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#teams">Teams</a>
+            <a href="#news">News</a>
+            <a href="#partners">Partner</a>
+
+            <a href="shop/index.html" class="shop-link">
+                Official Shop ↗
+            </a>
+
+        </nav>
+
+        <button class="menu-toggle" aria-label="Menü öffnen">
+            ☰
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================
+             HERO / STARTBEREICH
+        ====================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    WELCOME TO ULTOR ESPORTS
+                </p>
+
+                <h1>
+                    BUILT TO
+                    <span>COMPETE.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Wir stehen für Ehrgeiz, Zusammenhalt und
+                    den Anspruch, jeden Tag besser zu werden.
+
+                    Eine Organisation.
+                    Eine Identität.
+                    Ein gemeinsames Ziel.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#teams" class="button button-primary">
+                        UNSERE TEAMS
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        MEHR ÜBER ULTOR
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <!-- Hier kommt später unser Hero-Bild hin -->
+
+                <div class="hero-placeholder">
+                    <span>ULTOR</span>
+                    <small>ESPORTS</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MARKENBOTSCHAFT
+        ====================================== -->
+
+        <section class="brand-message">
+
+            <div class="brand-message-content">
+
+                <span>DISCIPLINE</span>
+                <span>✦</span>
+                <span>AMBITION</span>
+                <span>✦</span>
+                <span>UNITY</span>
+                <span>✦</span>
+                <span>COMPETITION</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             ABOUT / ORGANISATION
+        ====================================== -->
+
+        <section class="about section" id="about">
+
+            <div class="section-label">
+                01 / WHO WE ARE
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-heading">
+
+                    <h2>
+                        MORE THAN
+                        <span>A TEAM.</span>
+                    </h2>
+
+                </div>
+
+                <div class="about-text">
+
+                    <p class="eyebrow">
+                        OUR IDENTITY
+                    </p>
+
+                    <p>
+                        ULTOR Esports ist mehr als die Summe
+                        seiner Spieler.
+
+                        Wir wollen ein Umfeld schaffen, in dem
+                        Wettbewerb, persönliche Entwicklung und
+                        Teamgeist zusammenkommen.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        LERNE ULTOR KENNEN ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             TEAMS
+        ====================================== -->
+
+        <section class="teams section" id="teams">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">
+                        02 / COMPETITIVE
+                    </p>
+
+                    <h2>
+                        OUR <span>TEAMS</span>
+                    </h2>
+                </div>
+
+                <a href="teams.html" class="text-link">
+                    ALLE TEAMS ↗
+                </a>
+
+            </div>
+
+
+            <div class="team-grid">
+
+                <!-- LEAGUE OF LEGENDS -->
+
+                <article class="team-card">
+
+                    <div class="team-image">
+
+                        <span class="team-number">
+                            01
+                        </span>
+
+                        <span class="game-title">
+                            LoL
+                        </span>
+
+                    </div>
+
+                    <div class="team-information">
+
+                        <p class="eyebrow">
+                            COMPETITIVE DIVISION
+                        </p>
+
+                        <h3>
+                            LEAGUE OF LEGENDS
+                        </h3>
+
+                        <a href="teams.html" class="text-link">
+                            TEAM DETAILS ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- WEITERE TEAMS -->
+
+                <article class="team-card team-card-empty">
+
+                    <div class="team-image">
+
+                        <span class="team-number">
+                            02
+                        </span>
+
+                        <span class="game-title">
+                            ?
+                        </span>
+
+                    </div>
+
+                    <div class="team-information">
+
+                        <p class="eyebrow">
+                            FUTURE DIVISION
+                        </p>
+
+                        <h3>
+                            MORE TO COME
+                        </h3>
+
+                        <span class="team-status">
+                            STAY TUNED
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PHILOSOPHIE / STATEMENT
+        ====================================== -->
+
+        <section class="statement">
+
+            <div class="statement-symbol">
+                U
+            </div>
+
+            <div class="statement-content">
+
+                <p class="eyebrow">
+                    THE ULTOR MINDSET
+                </p>
+
+                <h2>
+                    NO SHORTCUTS.
+                    <span>JUST PROGRESS.</span>
+                </h2>
+
+                <p>
+                    Wir glauben an kontinuierliche Entwicklung,
+                    klare Ziele und Menschen, die gemeinsam
+                    etwas aufbauen wollen.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             NEWS
+        ====================================== -->
+
+        <section class="news section" id="news">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">
+                        03 / STAY CONNECTED
+                    </p>
+
+                    <h2>
+                        NEWS & <span>UPDATES</span>
+                    </h2>
+                </div>
+
+                <a href="news.html" class="text-link">
+                    ALLE NEWS ↗
+                </a>
+
+            </div>
+
+
+            <div class="news-grid">
+
+                <article class="news-card">
+
+                    <div class="news-image">
+                        <span>ULTOR / NEWS 001</span>
+                    </div>
+
+                    <div class="news-information">
+
+                        <p class="news-category">
+                            ORGANIZATION
+                        </p>
+
+                        <h3>
+                            THE NEXT CHAPTER
+                            STARTS HERE.
+                        </h3>
+
+                        <p>
+                            Neuigkeiten, Ankündigungen und
+                            Einblicke in die Organisation.
+                        </p>
+
+                        <a href="news.html" class="text-link">
+                            MEHR ERFAHREN ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             OFFICIAL SHOP
+        ====================================== -->
+
+        <section class="shop-section" id="shop">
+
+            <div class="shop-content">
+
+                <p class="eyebrow">
+                    04 / OFFICIAL MERCHANDISE
+                </p>
+
+                <h2>
+                    REPRESENT
+                    <span>ULTOR.</span>
+                </h2>
+
+                <p>
+                    Trage die Farben der Organisation.
+
+                    Entdecke den offiziellen ULTOR Merchandise-Shop.
+                </p>
+
+                <a href="shop/index.html" class="button button-primary">
+                    ZUM OFFICIAL SHOP ↗
+                </a>
+
+            </div>
+
+            <div class="shop-visual">
+
+                <!-- Hier kommt später unser echtes Trikotbild hin -->
+
+                <div class="jersey-placeholder">
+                    <span>ULTOR</span>
+                    <strong>00</strong>
+                    <small>ESPORTS</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PARTNER
+        ====================================== -->
+
+        <section class="partners section" id="partners">
+
+            <div class="partners-heading">
+
+                <p class="eyebrow">
+                    05 / BUILD WITH US
+                </p>
+
+                <h2>
+                    GROW
+                    <span>TOGETHER.</span>
+                </h2>
+
+            </div>
+
+            <div class="partners-text">
+
+                <p>
+                    Du möchtest ULTOR unterstützen oder
+                    gemeinsam Projekte realisieren?
+
+                    Wir freuen uns auf den Austausch mit
+                    passenden Partnern.
+                </p>
+
+                <a href="partners.html" class="text-link">
+                    PARTNER WERDEN ↗
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer class="site-footer">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-symbol">U</span>
+
+            <span class="logo-text">
+                ULTOR
+                <small>ESPORTS</small>
+            </span>
+
+        </a>
+
+        <p class="footer-claim">
+            BUILT TO COMPETE. UNITED BY ULTOR.
+        </p>
+
+        <div class="footer-navigation">
+
+            <a href="about.html">About</a>
+            <a href="teams.html">Teams</a>
+            <a href="news.html">News</a>
+            <a href="partners.html">Partner</a>
+            <a href="shop/index.html">Shop</a>
+            <a href="contact.html">Kontakt</a>
+
         </div>
-        <div class="art-caption">DROP 001 <span>·</span> THE FIRST JUDGEMENT</div>
-      </div>
-      <div class="hero-bottom"><span>01 / COLLECTION</span><span>SCROLL TO EXPLORE ↓</span></div>
-    </section>
 
-    <section class="ticker" aria-label="Markenbotschaft"><div>ULTOR ESPORTS <b>✦</b> BUILT TO COMPETE <b>✦</b> NEVER BACK DOWN <b>✦</b> ULTOR ESPORTS <b>✦</b> BUILT TO COMPETE <b>✦</b></div></section>
+        <div class="footer-bottom">
 
-    <section class="shop-section section-wrap" id="shop">
-      <div class="section-heading">
-        <div><p class="eyebrow">DROP 001 / FIRST COLLECTION</p><h2>OFFICIAL <em>TEAMWEAR</em></h2></div>
-        <p class="section-note">Der erste Drop. Die offizielle Identität.<br>Weitere Produkte folgen.</p>
-      </div>
-      <article class="product-card">
-        <div class="product-visual">
-          <div class="product-tag">COMING SOON</div>
-          <div class="jersey jersey-product">
-            <div class="jersey-neck"></div><div class="jersey-chest-logo">U</div>
-            <div class="jersey-line line-a"></div><div class="jersey-line line-b"></div>
-            <div class="jersey-number">00</div><div class="jersey-label">ULTOR ESPORTS</div>
-          </div>
-          <div class="visual-shadow"></div>
+            <p>
+                © <span id="year"></span> ULTOR ESPORTS.
+                Alle Rechte vorbehalten.
+            </p>
+
+            <div>
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+
         </div>
-        <div class="product-info">
-          <p class="eyebrow">ULTOR ESPORTS / JERSEY 001</p>
-          <h3>THE OFFICIAL<br>ULTOR JERSEY</h3>
-          <p class="product-description">Das offizielle ULTOR-Trikot. Entwickelt für Spieler, Fans und alle, die unsere Farben tragen.</p>
-          <div class="product-meta"><span>FARBE</span><strong>OBSIDIAN / PURPLE</strong></div>
-          <label class="field-label" for="size">GRÖSSE</label>
-          <select id="size" class="size-select">
-            <option value="">Größe auswählen</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option><option>3XL</option>
-          </select>
-          <label class="field-label" for="player-name">PERSONALISIERUNG (OPTIONAL)</label>
-          <input id="player-name" class="text-input" type="text" maxlength="14" placeholder="Name auf dem Rücken">
-          <button class="button button-primary add-to-cart" id="add-to-cart">BALD VERFÜGBAR</button>
-          <p class="availability-note">Der Shop befindet sich im Aufbau. Bestellungen sind noch nicht möglich.</p>
-        </div>
-      </article>
-    </section>
 
-    <section class="manifesto" id="about">
-      <div class="manifesto-mark">U</div>
-      <div class="manifesto-copy"><p class="eyebrow">WHO WE ARE</p><h2>MORE THAN<br><em>A TEAM.</em></h2><p>ULTOR steht für Ehrgeiz, Zusammenhalt und den Anspruch, jeden Tag besser zu werden. Unsere Farben verbinden Spieler und Community – im Wettbewerb und darüber hinaus.</p></div>
-    </section>
+    </footer>
 
-    <section class="faq-section section-wrap" id="faq">
-      <div class="section-heading"><div><p class="eyebrow">GOOD TO KNOW</p><h2>HÄUFIGE <em>FRAGEN</em></h2></div></div>
-      <details><summary>Wann kann ich das Trikot bestellen?</summary><p>Der Shop wird aktuell vorbereitet. Sobald Bestellungen möglich sind, findest du hier alle Informationen.</p></details>
-      <details><summary>Welche Größen wird es geben?</summary><p>Die verfügbaren Größen und eine Größentabelle veröffentlichen wir vor dem Verkaufsstart.</p></details>
-      <details><summary>Kann ich mein Trikot personalisieren?</summary><p>Eine Personalisierung mit eigenem Namen oder einer Nummer ist geplant. Ob sie beim ersten Drop angeboten wird, geben wir noch bekannt.</p></details>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <a class="brand" href="#start"><span class="brand-mark">U</span><span class="brand-name">ULTOR <small>ESPORTS</small></span></a>
-    <p>BUILT TO COMPETE. UNITED BY ULTOR.</p>
-    <div class="footer-links"><a href="#faq">FAQ</a><a href="mailto:shop@ultor-esports.de">Kontakt</a><a href="#" aria-disabled="true">Impressum (vor Launch ergänzen)</a><a href="#" aria-disabled="true">Datenschutz (vor Launch ergänzen)</a></div>
-    <small>© <span id="year"></span> ULTOR ESPORTS. Alle Rechte vorbehalten.</small>
-  </footer>
+    <script src="script.js"></script>
 
-  <div class="cart-overlay" id="cart-overlay" aria-hidden="true">
-    <aside class="cart-panel" aria-label="Warenkorb">
-      <div class="cart-header"><h2>Warenkorb</h2><button id="close-cart" aria-label="Warenkorb schließen">✕</button></div>
-      <div class="cart-empty" id="cart-empty">Dein Warenkorb ist noch leer.</div>
-      <div id="cart-items"></div>
-      <div class="cart-footer"><p>Zwischensumme <strong id="cart-total">0,00 €</strong></p><button class="button button-primary" disabled>CHECKOUT – NOCH NICHT AKTIV</button><small>Demo-Warenkorb ohne Bestell- oder Zahlungsfunktion.</small></div>
-    </aside>
-  </div>
-  <script src="script.js"></script>
 </body>
 </html>
